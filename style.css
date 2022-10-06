@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+#bg-image {
+  position: absolute;
+  background-color: #0f2136;
+  filter: blur(50px);
+  height: 150%;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+html, body {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 26px;
+  color: #dacece;
+  height: 100%;
+  background-color: #0f2136;
+  overflow: hidden;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pepe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.text-div {
+  position: absolute;
+  font-size: 50px;
+  width: 100%;
+  transform: translate(-25%, -50%);
+  white-space: nowrap;
+}
+
+.aftertext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.titletext {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  font-size: 65px;
+}
+
+.altbutton {
+  border-radius: 12px;
+  background-color: rgba(0,0,0,0.5);
+  color: #DACECE;
+  border: none;
+  padding: 10px 30px;
+  font-size: 40px;
+  position: absolute;
+  top: 90%;
+  box-shadow: 1px 1px 51px 6px rgba(0,0,0,0.75);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.altbutton:hover {
+  transform: translateY(-4px);
+  box-shadow: 1px 1px 59px 11px rgba(0,0,0,0.75);
+}
